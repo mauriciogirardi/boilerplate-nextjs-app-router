@@ -1,0 +1,5 @@
+!.storybook
+!.test
+build
+coverage
+.next
