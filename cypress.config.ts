@@ -1,9 +1,9 @@
 import { defineConfig } from 'cypress'
 
+import { env } from '@/env'
+
 export default defineConfig({
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    }
+    baseUrl: env.NEXT_PUBLIC_BASE_URL
   }
 })

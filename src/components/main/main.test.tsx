@@ -7,14 +7,7 @@ describe('Main', () => {
   it('should be able to render correctly', () => {
     render(<Main />)
     expect(
-      screen.getByRole('heading', { name: /main component/i })
-    ).toBeDefined()
-  })
-
-  it('should be able to heading with the text-red-600 color', () => {
-    render(<Main />)
-    expect(
-      screen.getByRole('heading', { name: /main component/i })
-    ).toHaveProperty('className', 'text-red-600')
+      screen.getByRole('heading', { name: /boilerplate/i, level: 1 })
+    ).toBeInTheDocument()
   })
 })
