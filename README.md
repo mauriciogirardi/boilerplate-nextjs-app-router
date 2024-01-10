@@ -64,6 +64,15 @@ pnpm dev
 
 ```
 
+### Start new project using this boilerplate
+```bash
+ # pnpm
+ pnpm dlx create-next-app --example https://github.com/mauriciogirardi/boilerplate-nextjs-app-router    
+
+# npm
+npx create-next-app --example https://github.com/mauriciogirardi/boilerplate-nextjs-app-router    
+```
+
 Customize and extend the boilerplate to suit your specific project requirements.
 
 Feel free to explore the rich ecosystem of technologies included in this boilerplate and leverage them to create exceptional web applications. Happy coding! 🚀
