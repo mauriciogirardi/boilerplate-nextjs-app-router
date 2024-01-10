@@ -1,6 +1,8 @@
 {
   "cSpell.words": [
-    "esnext"
+    "autodocs",
+    "esnext",
+    "plopfile"
   ],
   "editor.formatOnSave": true,
 }
