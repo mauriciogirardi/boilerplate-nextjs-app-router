@@ -8,7 +8,7 @@ import { defineConfig } from 'vitest/config'
 export default defineConfig({
   plugins: [react()],
   test: {
-    setupFiles: ['./.test/setup.js'],
+    setupFiles: ['./.test/setup.ts'],
     passWithNoTests: true,
     globals: true,
     environment: 'jsdom',
