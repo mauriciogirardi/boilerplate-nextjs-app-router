@@ -37,8 +37,8 @@ devDependencies:
     specifier: ^7.6.12
     version: 7.6.12(@types/react-dom@18.2.18)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/nextjs':
-    specifier: ^7.6.12
-    version: 7.6.12(@swc/core@1.3.102)(esbuild@0.18.20)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.
+    specifier: ^7.6.7
+    version: 7.6.12(@swc/core@1.3.102)(esbuild@0.18.20)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.0)
   '@storybook/react':
     specifier: ^7.6.7
     version: 7.6.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
@@ -97,8 +97,8 @@ devDependencies:
     specifier: ^0.6.15
     version: 0.6.15(eslint@8.56.0)(typescript@5.3.3)
   husky:
-    specifier: ^8.0.0
-    version: 8.0.3
+    specifier: ^9.0.10
+    version: 9.0.10
   jsdom:
     specifier: ^23.2.0
     version: 23.2.0
@@ -3040,17 +3040,6 @@ packages:
       uuid: 9.0.1
     dev: true
 
-  /@storybook/addon-actions@7.6.7:
-    resolution: {integrity: sha512-+6EZvhIeKEqG/RNsU3R5DxOrd60BL5GEvmzE2w60s2eKaNNxtyilDjiO1g4z2s2zDNyr7JL/Ft03pJ0Jgo0lew==}
-    dependencies:
-      '@storybook/core-events': 7.6.7
-      '@storybook/global': 5.0.0
-      '@types/uuid': 9.0.7
-      dequal: 2.0.3
-      polished: 4.2.2
-      uuid: 9.0.1
-    dev: true
-
   /@storybook/addon-backgrounds@7.6.12:
     resolution: {integrity: sha512-G14uN5lDXUtXw+dmEPaB6lpDpR9K25ssYuWWn8yYR44B1WMuD4kDgw0QGb0g+xYQj9R1TsalKEJHA4AuSYkVGQ==}
     dependencies:
@@ -3455,37 +3444,12 @@ packages:
       - '@types/react-dom'
     dev: true
 
-
-  /@storybook/components@7.6.7(@types/react-dom@18.2.18)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-1HN4p+MCI4Tx9VGZayZyqbW7SB7mXQLnS5fUbTE1gXaMYHpzFvcrRNROeV1LZPClJX6qx1jgE5ngZojhxGuxMA==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      '@radix-ui/react-select': 1.2.2(@types/react-dom@18.2.18)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-toolbar': 1.0.4(@types/react-dom@18.2.18)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/client-logger': 7.6.7
-      '@storybook/csf': 0.1.2
-      '@storybook/global': 5.0.0
-      '@storybook/theming': 7.6.7(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/types': 7.6.7
-      memoizerific: 1.11.3
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      use-resize-observer: 9.1.0(react-dom@18.2.0)(react@18.2.0)
-      util-deprecate: 1.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-      - '@types/react-dom'
-    dev: true
-
   /@storybook/core-client@7.6.12:
     resolution: {integrity: sha512-VzVp32tMZsCzM4UIqfvCoJF7N9mBf6dsAxh1/ZgViy75Fht78pGo3JwZXW8osMbFSRpmWD7fxlUM5S7TQOYQug==}
     dependencies:
       '@storybook/client-logger': 7.6.12
       '@storybook/preview-api': 7.6.12
     dev: true
-
 
   /@storybook/core-client@7.6.7:
     resolution: {integrity: sha512-ZQivyEzYsZok8vRj5Qan7LbiMUnO89rueWzTnZs4IS6JIaQtjoPI1rGVq+h6qOCM6tki478hic8FS+zwGQ6q+w==}
@@ -3765,7 +3729,7 @@ packages:
     resolution: {integrity: sha512-TXJJd5RAKakWx4BtpwvSNdgTDkKM6RkXU8GK34S/LhidQ5Pjz3wcnqb0TxEkfhK/ztbP8nKHqXFwLfa2CYkvQw==}
     dev: true
 
-  /@storybook/nextjs@7.6.12(@swc/core@1.3.102)(esbuild@0.18.20)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.0):
+  /@storybook/nextjs@7.6.12(@swc/core@1.3.102)(esbuild@0.18.20)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.0):
     resolution: {integrity: sha512-LotbWSzm0Q3ra0daoX2G40wWC5moU2o+Rg139OL1fWWUBC4tiQM7V3VUzoKP6t9BPii166am7WLmY7r8rN0G+A==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -8712,9 +8676,9 @@ packages:
     engines: {node: '>=16.17.0'}
     dev: true
 
-  /husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
+  /husky@9.0.10:
+    resolution: {integrity: sha512-TQGNknoiy6bURzIO77pPRu+XHi6zI7T93rX+QnJsoYFf3xdjKOur+IlfqzJGMHIK/wXrLg+GsvMs8Op7vI2jVA==}
+    engines: {node: '>=18'}
     hasBin: true
     dev: true
 
