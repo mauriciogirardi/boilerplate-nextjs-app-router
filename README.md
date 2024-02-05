@@ -65,12 +65,26 @@ pnpm dev
 ```
 
 ### Start new project using this boilerplate
+
 ```bash
  # pnpm
- pnpm dlx create-next-app --example https://github.com/mauriciogirardi/boilerplate-nextjs-app-router    
+ pnpm dlx create-next-app --example https://github.com/mauriciogirardi/boilerplate-nextjs-app-router
 
 # npm
-npx create-next-app --example https://github.com/mauriciogirardi/boilerplate-nextjs-app-router    
+npx create-next-app --example https://github.com/mauriciogirardi/boilerplate-nextjs-app-router
+```
+
+### Environment
+
+```bash
+# In the file . gitignore uncomment this line so your env does not go to the repository.
+
+# .env*.local
+
+NEXT_PUBLIC_BASE_URL="http://localhost:3000"
+APP_URL="http://localhost:3000/api"
+NODE_ENV="developemnt"
+SITE_NAME="Boilerplate"
 ```
 
 Customize and extend the boilerplate to suit your specific project requirements.
