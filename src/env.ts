@@ -3,15 +3,15 @@ import { z } from 'zod'
 
 export const env = createEnv({
   server: {
-    APP_URL: z.string().url(),
-    SITE_NAME: z.string(),
+    APP_URL: z.string().url().default('http://localhost:3000/api'),
+    SITE_NAME: z.string().default('Boilerplate'),
     NODE_ENV: z
       .enum(['development', 'test', 'production'])
       .default('development')
   },
 
   client: {
-    NEXT_PUBLIC_BASE_URL: z.string().url()
+    NEXT_PUBLIC_BASE_URL: z.string().url().default('http://localhost:3000')
   },
 
   runtimeEnv: {
