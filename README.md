@@ -77,7 +77,9 @@ npx create-next-app --example https://github.com/mauriciogirardi/boilerplate-nex
 ### Environment
 
 ```bash
-# Create a local **.env.local** file at the root of the project and copy the **envs** from the **env.example** file and paste it into the **local.env**.
+# In the file . gitignore uncomment this line so your env does not go to the repository.
+
+# .env*.local
 
 NEXT_PUBLIC_BASE_URL="http://localhost:3000"
 APP_URL="http://localhost:3000/api"
