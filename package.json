@@ -70,7 +70,7 @@
     "postcss": "^8",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "storybook": "^7.6.12",
+    "storybook": "^7.6.13",
     "tailwindcss": "^3.3.0",
     "typescript": "^5",
     "vitest": "^1.2.2"
